@@ -1,0 +1,120 @@
+2022-11-26T23:38:11+00:00 Jonas-mac#01 I: Start test public:0:public_nothing.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Test public:0:public_nothing exited with an error.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Failure("unimplemented") in test public:0:public_nothing.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from Dune__exe__Public.public_nothing in file "test/public/public.ml", line 9, characters 16-47
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: 
+2022-11-26T23:38:11+00:00 Jonas-mac#01 I: End test public:0:public_nothing.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 I: Start test public:2:public_mutop_simple_def_and_let.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Test public:2:public_mutop_simple_def_and_let exited with an error.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Failure("unimplemented") in test public:2:public_mutop_simple_def_and_let.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from Dune__exe__Public.public_mutop_simple_def_and_let in file "test/public/public.ml", line 20, characters 16-83
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: 
+2022-11-26T23:38:11+00:00 Jonas-mac#01 I: End test public:2:public_mutop_simple_def_and_let.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 I: Start test public:4:public_expr_apply.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Test public:4:public_expr_apply exited with an error.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Failure("Primary expression error") in test public:4:public_expr_apply.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from P4a__Parser.parse_funcall in file "src/parser.ml", line 166, characters 15-30
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from P4a__Parser.parse_concat in file "src/parser.ml", line 153, characters 15-31
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from P4a__Parser.parse_mul in file "src/parser.ml", line 144, characters 15-32
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from P4a__Parser.parse_add in file "src/parser.ml", line 135, characters 15-29
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from P4a__Parser.parse_relation in file "src/parser.ml", line 122, characters 15-29
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from P4a__Parser.parse_equality in file "src/parser.ml", line 113, characters 15-34
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from P4a__Parser.parse_and in file "src/parser.ml", line 106, characters 14-33
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from P4a__Parser.parse_or in file "src/parser.ml", line 99, characters 15-29
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from P4a__Parser.parse_let in file "src/parser.ml", line 73, characters 24-84
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from P4a__Parser.parse_expr in file "src/parser.ml", line 51, characters 17-29
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from Dune__exe__Public.public_expr_apply in file "test/public/public.ml", line 33, characters 16-124
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: 
+2022-11-26T23:38:11+00:00 Jonas-mac#01 I: End test public:4:public_expr_apply.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 I: Start test public:7:public_expr_let_fun.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Test public:7:public_expr_let_fun exited with an error.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Failure("Primary expression error") in test public:7:public_expr_let_fun.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from P4a__Parser.parse_funcall in file "src/parser.ml", line 166, characters 15-30
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from P4a__Parser.parse_concat in file "src/parser.ml", line 153, characters 15-31
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from P4a__Parser.parse_mul in file "src/parser.ml", line 144, characters 15-32
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from P4a__Parser.parse_add in file "src/parser.ml", line 135, characters 15-29
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from P4a__Parser.parse_relation in file "src/parser.ml", line 122, characters 15-29
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from P4a__Parser.parse_equality in file "src/parser.ml", line 113, characters 15-34
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from P4a__Parser.parse_and in file "src/parser.ml", line 106, characters 14-33
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from P4a__Parser.parse_or in file "src/parser.ml", line 99, characters 15-29
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from P4a__Parser.parse_let in file "src/parser.ml", line 73, characters 24-84
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from P4a__Parser.parse_expr in file "src/parser.ml", line 51, characters 17-29
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from Dune__exe__Public.public_expr_let_fun in file "test/public/public.ml", line 53, characters 16-77
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: 
+2022-11-26T23:38:11+00:00 Jonas-mac#01 I: End test public:7:public_expr_let_fun.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 I: Start test public:9:public_expr_nested_let.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Test public:9:public_expr_nested_let exited with an error.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Failure("Primary expression error") in test public:9:public_expr_nested_let.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Raised at Stdlib.failwith in file "stdlib.ml", line 29, characters 17-33
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from P4a__Parser.parse_funcall in file "src/parser.ml", line 166, characters 15-30
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from P4a__Parser.parse_concat in file "src/parser.ml", line 153, characters 15-31
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from P4a__Parser.parse_mul in file "src/parser.ml", line 144, characters 15-32
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from P4a__Parser.parse_add in file "src/parser.ml", line 135, characters 15-29
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from P4a__Parser.parse_relation in file "src/parser.ml", line 122, characters 15-29
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from P4a__Parser.parse_equality in file "src/parser.ml", line 113, characters 15-34
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from P4a__Parser.parse_and in file "src/parser.ml", line 106, characters 14-33
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from P4a__Parser.parse_or in file "src/parser.ml", line 99, characters 15-29
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from P4a__Parser.parse_let in file "src/parser.ml", line 73, characters 24-84
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from P4a__Parser.parse_expr in file "src/parser.ml", line 51, characters 17-29
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from Dune__exe__Public.public_expr_nested_let in file "test/public/public.ml", line 78, characters 16-190
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: 
+2022-11-26T23:38:11+00:00 Jonas-mac#01 I: End test public:9:public_expr_nested_let.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 I: Start test public:16:public_expr_simple_sub.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Test public:16:public_expr_simple_sub has failed.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: public_expr_simple_sum
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: not equal in test public:16:public_expr_simple_sub.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Raised at OUnitAssert.assert_failure in file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: 
+2022-11-26T23:38:11+00:00 Jonas-mac#01 I: End test public:16:public_expr_simple_sub.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 I: Start test public:18:public_expr_single_and.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Test public:18:public_expr_single_and has failed.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: public_expr_single_and
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: not equal in test public:18:public_expr_single_and.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Raised at OUnitAssert.assert_failure in file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: 
+2022-11-26T23:38:11+00:00 Jonas-mac#01 I: End test public:18:public_expr_single_and.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 I: Start test public:20:public_expr_single_fun.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Test public:20:public_expr_single_fun has failed.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: public_expr_single_fun
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: not equal in test public:20:public_expr_single_fun.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Raised at OUnitAssert.assert_failure in file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: 
+2022-11-26T23:38:11+00:00 Jonas-mac#01 I: End test public:20:public_expr_single_fun.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 I: Start test public:21:public_expr_single_if.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Test public:21:public_expr_single_if has failed.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: public_expr_single_if
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: not equal in test public:21:public_expr_single_if.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Raised at OUnitAssert.assert_failure in file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: 
+2022-11-26T23:38:11+00:00 Jonas-mac#01 I: End test public:21:public_expr_single_if.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 I: Start test public:23:public_expr_single_notequal.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Test public:23:public_expr_single_notequal has failed.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: public_expr_single_notequal
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: not equal in test public:23:public_expr_single_notequal.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Raised at OUnitAssert.assert_failure in file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: 
+2022-11-26T23:38:11+00:00 Jonas-mac#01 I: End test public:23:public_expr_single_notequal.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 I: Start test public:25:public_expr_single_number.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 I: Test public:25:public_expr_single_number is successful.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 I: End test public:25:public_expr_single_number.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 I: Start test public:28:public_err_def_not_top_level.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Test public:28:public_err_def_not_top_level has failed.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Got Failure("unimplemented"), expected InvalidInputException in test public:28:public_err_def_not_top_level.
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Raised at OUnitAssert.assert_failure in file "src/lib/ounit2/advanced/oUnitAssert.ml", line 45, characters 2-27
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: Called from OUnitRunner.run_one_test.(fun) in file "src/lib/ounit2/advanced/oUnitRunner.ml", line 83, characters 13-26
+2022-11-26T23:38:11+00:00 Jonas-mac#01 E: 
+2022-11-26T23:38:11+00:00 Jonas-mac#01 I: End test public:28:public_err_def_not_top_level.
